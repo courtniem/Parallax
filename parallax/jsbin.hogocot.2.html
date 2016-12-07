@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2016 by courtniem (http://jsbin.com/hogocot/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+    <title> some title </title>
+    
+  <style id="jsbin-css">
+#wrapper{
+  height:10000px;
+  width:1280px;
+  border:1px solid red;
+  margin:0 auto;
+}
+
+#counter{ width:200px;
+          height:50px;
+          border: 1px solid blue;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+        
+          position: fixed;
+          top:30px;
+          left:100px;
+          margin:0;
+          padding:0;
+          background-image:url("http://placekitten.com/200/300");
+          }
+
+
+#counter2{ width:100px;
+          height:50px;
+          border: 1px solid blue;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+        
+          position: fixed;
+          top:100px;
+          left:150px;
+          margin:0;
+          padding:0;
+          }
+
+
+#counter3{ width:100px;
+          height:50px;
+          border: 1px solid blue;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+        
+          position: fixed;
+          top:30px;
+          left:375px;
+          margin:0;
+          padding:0;
+          }
+
+#counter4{ width:265px;
+          height:50px;
+          border: 1px solid blue;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+        
+          position: fixed;
+          top:30px;
+          left:375px;
+          margin:0;
+          padding:0;
+          }
+
+#counter5{ width:200px;
+          height:50px;
+          border: 1px solid blue;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+        
+          position: fixed;
+          top:30px;
+          left:375px;
+          margin:0;
+          padding:0;
+          }
+
+#counter6{ width:265px;
+          height:50px;
+          border: 1px solid blue;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+        
+          position: fixed;
+          top:30px;
+          left:375px;
+          margin:0;
+          padding:0;
+          }
+
+#counter7{ width:265px;
+          height:50px;
+          border: 1px solid blue;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+        
+          position: fixed;
+          top:30px;
+          left:375px;
+          margin:0;
+          padding:0;
+          }
+
+</style>
+</head>
+  
+  <body>
+    
+    <div id="wrapper">
+    
+  
+
+      <div id="counter"> </div>
+      
+      <div id="counter2"> counter</div>
+      
+      <div id="counter3"> counter</div>
+      
+      <div id="counter4"> counter</div>
+
+      <div id="counter5"> counter</div>
+      
+      <div id="counter6"> counter</div>
+      
+      <div id="counter7"> counter</div>
+    
+  
+  <script id="jsbin-javascript">
+ $(window).scroll(function(){
+   
+
+      
+      //console.log("topNumber");
+     
+      //var topNumber = $(window).scrollTop();
+       var topNumber = Math.floor($(window).scrollTop());
+       
+       //$("#counter").text("px:" +topNumber);
+   //style of the box
+   $("#counter").css({
+      "color":"white",
+     "background-color":"blue",
+     //how far the counter div is moving-controls speed of box
+     "top":30 +topNumber * 0.03 +"px"
+                    
+                    });
+      
+   //console.log(topNumber);
+
+if(topNumber>5000){
+  $("#counter").css({"top":"5px"});
+  
+}   else {
+   $("#counter").css({
+  "background-color":"green"});
+}
+      
+
+    });
+
+//COUNTER2
+  
+
+
+ $(window).scroll(function(){
+   
+
+      
+      //console.log("topNumber");
+     
+      //var topNumber = $(window).scrollTop();
+       var topNumber = Math.floor($(window).scrollTop());
+       
+       //$("#counter2").text("px:" +topNumber);
+   
+   $("#counter2").css({
+      "color":"white",
+     "background-color":"blue",
+     //how far the counter div is moving
+     "top":100 +topNumber * 0.05 +"px"
+                    
+                    });
+      
+   //console.log(topNumber);
+
+if(topNumber>5000){
+  $("#counter2").css({"top":"100px"});
+  
+}   else {
+   $("#counter2").css({
+  "background-color":"green"});
+}
+      
+
+    });
+
+//COUNTER3
+
+$(window).scroll(function(){
+   
+
+      
+      //console.log("topNumber");
+     
+      //var topNumber = $(window).scrollTop();
+       var topNumber = Math.floor($(window).scrollTop());
+       
+       $("#counter3").text("px:" +topNumber );
+   
+   $("#counter3").css({
+      "color":"white",
+     "background-color":"blue",
+     //how far the counter div is moving
+     "top":30 +topNumber * 0.06 +"px"
+                    
+                    });
+      
+   //console.log(topNumber);
+  //controls changes of px after you scroll to certain point
+
+if(topNumber>5000){
+  $("#counter3").css({"top":"5px"});
+  
+}   else {
+   $("#counter3").css({
+  "background-color":"green"});
+}
+      
+
+    });
+  
+
+//COUNTER4
+
+$(window).scroll(function(){
+   
+
+      
+      //console.log("topNumber");
+     
+      //var topNumber = $(window).scrollTop();
+       var topNumber = Math.floor($(window).scrollTop());
+       
+       $("#counter4").text("px:" +topNumber );
+   
+   $("#counter4").css({
+      "color":"white",
+     "background-color":"blue",
+     //how far the counter div is moving
+     "top":30 +topNumber * 0.08 +"px"
+                    
+                    });
+      
+   //console.log(topNumber);
+  //controls changes of px after you scroll to certain point
+
+if(topNumber>5000){
+  $("#counter4").css({"top":"5px"});
+  
+}   else {
+   $("#counter4").css({
+  "background-color":"green"});
+}
+      
+
+    });
+
+//COUNTER5
+
+$(window).scroll(function(){
+   
+
+      
+      //console.log("topNumber");
+     
+      //var topNumber = $(window).scrollTop();
+       var topNumber = Math.floor($(window).scrollTop());
+       
+       $("#counter5").text("px:" +topNumber );
+   
+   $("#counter5").css({
+      "color":"white",
+     "background-color":"blue",
+     //how far the counter div is moving
+     "top":30 +topNumber * 0.02 +"px"
+                    
+                    });
+      
+   //console.log(topNumber);
+  //controls changes of px after you scroll to certain point
+
+if(topNumber>5000){
+  $("#counter5").css({"top":"5px"});
+  
+}   else {
+   $("#counter5").css({
+  "background-color":"green"});
+}
+      
+
+    });
+  
+
+//COUNTER6
+
+$(window).scroll(function(){
+   
+
+      
+      //console.log("topNumber");
+     
+      //var topNumber = $(window).scrollTop();
+       var topNumber = Math.floor($(window).scrollTop());
+       
+       $("#counter6").text("px:" +topNumber );
+   
+   $("#counter6").css({
+      "color":"white",
+     "background-color":"blue",
+     //how far the counter div is moving
+     "top":30 +topNumber * 0.08 +"px"
+                    
+                    });
+      
+   //console.log(topNumber);
+  //controls changes of px after you scroll to certain point
+
+if(topNumber>5000){
+  $("#counter6").css({"top":"5px"});
+  
+}   else {
+   $("#counter6").css({
+  "background-color":"green"});
+}
+      
+
+    });
+  
+
+//COUNTER7
+
+$(window).scroll(function(){
+   
+
+      
+      //console.log("topNumber");
+     
+      //var topNumber = $(window).scrollTop();
+       var topNumber = Math.floor($(window).scrollTop());
+       
+       $("#counter7").text("px:" +topNumber );
+   
+   $("#counter7").css({
+      "color":"white",
+     "background-color":"blue",
+     //how far the counter div is moving
+     "top":30 +topNumber * 0.08 +"px"
+                    
+                    });
+      
+   //console.log(topNumber);
+  //controls changes of px after you scroll to certain point
+
+if(topNumber>5000){
+  $("#counter7").css({"top":"5px"});
+  
+}   else {
+   $("#counter7").css({
+  "background-color":"green"});
+}
+      
+
+    });
+  
+  
+  
+</script>
+</body>
+</html>

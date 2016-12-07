@@ -1,0 +1,781 @@
+body{
+
+background-color:#8af1fd;
+
+
+
+}
+
+h2{
+font-family: 'Righteous', cursive;
+}
+
+
+#wrapper{
+  border-radius: 20%;
+  height:10000px;
+  width:1200px;
+  border:3px solid black;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+  opacity:1;
+    background-image:url("../images/wrapperbackground9.png");
+
+
+}
+
+#cloudfix
+{
+    text-indent:-100%;/*causes text to be invisible*/
+    position: absolute;
+    width: 500px;
+    height: 190px;
+    top: 475px;
+    left: 100px;
+      background-image:url("../images/corelcloud.png");
+    /*pushes text out of sight*/
+    z-index: 100;
+
+}
+
+#cloudfix2
+{
+    text-indent:-100%;/*causes text to be invisible*/
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    top: 475px;
+    left: 800px;
+    background-image:url("../images/corelcloud.png");
+    z-index: 100;
+
+}
+
+
+#counter{ width:350px;
+
+          height:100px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          position: absolute;
+          top:500px;
+          left:690px;
+          margin:0;
+          padding:0;
+          background-image:url("../images/counter.png");
+          }
+
+
+#counter2{ width:100px;
+          height:50px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          position: absolute;
+          top: 100px;
+          left:815px;
+          margin:0;
+          padding:0;
+          background-image:url("../images/cntr2.png")
+          }
+
+
+#counter3{ width:500px;
+          height:50px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/counter3.png");
+          position: absolute;
+          top:450px;
+          left:750px;
+          margin:0;
+          padding:0;
+          }
+
+#counter4{ width:265px;
+          height:50px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+            background-image:url("../images/counter4.png");
+          position: absolute;
+          top:300px;
+          left:300px;
+          margin:0;
+          padding:0;
+          }
+
+#counter5{ width:200px;
+          height:100px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/topp.png");
+          position: absolute;
+          top:400px;
+          left:900px;
+          margin:0;
+          padding:0;
+          }
+
+#counter6{ width:265px;
+          height:80px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/corelcloud.png");
+          position: absolute;
+          top:175px;
+          left:1075px;
+          margin:0;
+          padding:0;
+          }
+
+#counter7{ width:265px;
+          height:120px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/cloud2.2.png");
+          position: absolute;
+          top:125px;
+          left:765px;
+          margin:0;
+          padding:0;
+          }
+
+
+
+#counter8{ width:200px;
+          height:50px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          position: absolute;
+          top:30px;
+          left:100px;
+          margin:0;
+          padding:0;
+          background-image:url("../images/cirrus1.png");
+          }
+
+
+#counter9{ width:200px;
+          height:100px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/topp.png");
+          position: absolute;
+          top: 200px;
+          left:500px;
+          margin:0;
+          padding:0;
+          }
+
+
+#counter10{ width:300px;
+          height:125px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/counter10.png");
+          position: absolute;
+          top:120px;
+          left:140px;
+          margin:0;
+          padding:0;
+          }
+
+#counter11{ width:265px;
+          height:50px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/cumulous2.2.png");
+          position: absolute;
+          top:40px;
+          left:270px;
+          margin:0;
+          padding:0;
+          }
+
+#counter12{ width:200px;
+          height:50px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/counter12.png");
+          position: absolute;
+          top:30px;
+          left:235px;
+          margin:0;
+          padding:0;
+          }
+
+#counter13{ width:450px;
+          height:150px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          background-image:url("../images/cloud2.3.png");
+          position: absolute;
+          top:270px;
+          left:670px;
+          margin:0;
+          padding:0;
+          }
+
+#counter14{ width:100px;
+          height:100px;
+          font-family: monospace;
+          text-align: center;
+          line-height: 50px;
+          border-radius: 8%;
+          position: absolute;
+          top:685px;
+          left:1100px;
+          margin:0;
+          padding:0;
+          
+          image-orientation:
+          }
+
+
+
+
+@keyframes one {
+    0%   {background-color:; left:300px; top:0px;}
+    25%  { left:200px;}
+    50%  { left:200px;}
+    75%  { left:200px; }
+    100% {background-color:; left:-300px; top:0px;}
+
+}
+
+
+.clouds{
+
+  width: 100px;
+  height: 100px;
+  top:700px;
+
+  background-color: blue;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform: translateY(150px;);
+
+
+}
+.cloudscumulous{
+
+  width: 550px;
+  height: 350px;
+  top:900px;
+  background-color: ;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform: translateY(150px;);
+
+
+}
+
+
+
+#cirrus{
+  position: absolute;
+}
+
+
+
+}
+
+#firstfade{
+  border: 1px solid red;
+  height:1000px;
+  width:1000px;
+  position: absolute;
+  top:1175px;
+  left:600px;
+  background-repeat: no-repeat;
+  background-image:url("../images/plane3.png")
+
+
+}
+.floatingone{
+  height:350px;
+  width:600px;
+  position: relative;
+  top:2500px;
+  left:300px;
+
+
+}
+
+.floatingtwo{
+  height:150px;
+  width:300px;
+  position: relative;
+  top:1500px;
+  left:400px;
+
+
+}
+.floatingthree{
+  height:600px;
+  width:600px;
+  position: relative;
+  right: 400px;
+  top:1500px;
+  left:700px;
+
+}
+
+.floatingfour{
+  height:100px;
+  width:300px;
+  position: relative;
+  top:1200px;
+  left:150px;
+
+}
+
+.floatingfive{
+  height:100px;
+  width:200px;
+  position: relative;
+  top:1500px;
+  left:100px;
+
+}
+
+.floatingsix{
+  height:150px;
+  width:400px;
+  position: relative;
+  top:400px;
+  left:450px;
+
+
+}
+.floatingseven{
+  height:200px;
+  width:250px;
+  position: relative;
+  top:800px;
+  left:800px;
+
+}
+
+.bottombird1{
+  height:200px;
+  width:250px;
+  position: relative;
+  top:600px;
+  left:500px;
+
+}
+.bottombird2{
+  height:200px;
+  width:250px;
+  position: relative;
+  top:200px;
+  left:600px;
+
+}
+.bottombird3{
+  height:200px;
+  width:250px;
+  position: relative;
+  top:500px;
+  left:500px;
+
+}
+.bottombird4{
+  height:200px;
+  width:250px;
+  position: relative;
+  top:300px;
+  left:500px;
+
+}
+
+.hideme
+{
+  margin:50px;
+   padding:50px;
+    opacity:0;
+    top:2500px;
+    left:-900px;
+}
+
+.middle2{
+left:300px;
+height:300px;
+width:100px;
+position:absolute;
+
+
+}
+.middle3{
+  left:600px;
+  width:500;
+  position: absolute;
+}
+
+.middle4{
+  left:800px;
+  width:1500px;
+  position: absolute;
+}
+
+.middle5{
+  left:700px;
+  width:50px;
+  position: absolute;
+  }
+}
+
+.middle6{
+  left:500px;
+  top:500px;
+  width:50px;
+  position: absolute;
+  }
+
+
+.altocumulous{
+  height:800px;
+  width:50px;
+    position:absolute;
+        }
+
+@keyframes example {
+    0%   {background-color:; left:1200px; top:0px;}
+
+    100% {background-color:; left:-300px; top:0px;}
+}
+
+@keyframes cloudscumulous {
+    0%   {background-color:; left:1200px; top:0px;}
+
+    100% {background-color:; left:-900px; top:0px;}
+}
+
+#planewindow{
+
+         margin-left:-300px;
+         position:relative;
+         left:50%}
+
+/* create a size option */
+#planewindow {height:538px; width:351px;}
+
+/* hide overflow*/
+#planewindow {display:block; overflow:hidden;z-index:100;}
+
+/* translate  - transform*/
+#planewindow img{transform:translateY(320px);}
+
+#planewindow  {transform:translateX(220px);}
+#planewindow img{display:block; overflow:hidden;}
+#planewindow img{z-index: 10;}
+#planewindow img{transform:translate(180px, 120px);}
+
+
+/* Transitions*/
+
+#demo1 h1 {transition:all 2s;}
+#demo1 p{transition:transform 2s;}
+#planewindow {transition:all 6s;}
+
+/* on hover do stuff*/
+#demo1:hover {transition:all 2s;}
+#demo1:hover h1 {transform:translate(0,0);}
+#demo1:hover p{width:100%;
+               transform:translate(100px,105px);
+               height:70px;}
+#demo1:hover img{opacity:.3; transform:translate(0,-115px);}
+
+
+
+
+
+.floatingone {
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 3.5s;
+	-webkit-animation-duration: 3.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+
+.floatingtwo{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.floatingthree{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.floatingfour{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.floatingfive{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.floatingsix{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.floatingseven{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.floatingCloudes{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+.floatingS{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.floatingO{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.floatingA{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.floatingR{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.floating6{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.floating7{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3.5s;
+  -webkit-animation-duration: 3.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.floatingCloudes{
+  height:400px;
+  width:850px;
+  position: relative;
+  top:200px;
+  left:300px;
+  align-items: center;
+}
+
+.floatingS{
+  height:300px;
+  width:350px;
+  position: relative;
+  top:600px;
+  left:300px;
+}
+
+.floatingO{
+  height:300px;
+  width:350px;
+  position: relative;
+  top:450px;
+  left:400px;
+}
+
+.floatingA{
+  height:300px;
+  width:350px;
+  position: relative;
+  top:300px;
+  left:500px;
+}
+
+
+.floatingR{
+  height:300px;
+  width:350px;
+  position: relative;
+  top:100px;
+  left:600px;
+}
+
+.floating6{
+  height:300px;
+  width:350px;
+  position: relative;
+  top:-250px;
+  left:200px;
+}
+.floating7{
+  height:300px;
+  width:350px;
+  position: relative;
+  top:-250px;
+  left:600px;
+}
+
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(10%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(8%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+
+
+.shaking {
+    animation-name: shake;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+
+    -moz-animation-name: shake;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+@keyframes shake {
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
+@-webkit-keyframes shake {
+  50% {
+    -webkit-transform: translate(60, 10px);
+  }
+}
+
+@-moz-keyframes shake {
+  50% {
+    -moz-transform: translate(100, 10px);
+
+  }

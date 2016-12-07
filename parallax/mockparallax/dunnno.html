@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="dunnocss.css">
+<script>
+$(function(){  // $(document).ready shorthand
+  $('.planewindow').fadeIn('slow');
+});
+
+$(document).ready(function() {
+
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'1'},1500);
+
+            }
+
+        });
+
+    });
+
+});
+</script>
+</head>
+<body>
+  <section>
+
+    <div id="container">
+
+        <div id="monster">Hello</div>
+        <div>Hello</div>
+        <div class="hideme">Fade In
+          <img src="images/plane3.png" alt="plane"/>
+</div>
+        <div class="hideme">Fade In</div>
+        <div class="hideme">Fade In</div>
+        <div class="hideme">Fade In</div>
+        <div class="hideme">Fade In</div>
+
+    </div>
+</body>
+</html>

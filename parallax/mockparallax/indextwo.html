@@ -1,0 +1,505 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <meta name="description" content="HTML 5 Template">
+    <meta name="author" content="Your Name">
+
+
+    <script src="jquery/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/mainparallax.css">
+
+    <title> Parallax</title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+
+<div id="wrapper">
+<img src="images/cloudspixel.jpg" alt="plane"/>
+  <article id="row">
+
+      <div id="cloudfix"> cloud fix</div>
+      <div id="cloudfix2"> cloud fix2</div>
+
+      <div id="counter"> </div>
+
+      <div id="counter2"> counter2</div>
+
+      <div id="counter3"> counter3</div>
+
+      <div id="counter4"> counter4</div>
+
+      <div id="counter5"> counter5</div>
+
+      <div id="counter6"> counter6</div>
+
+      <div id="counter7"> counter7</div>
+
+      <div id="counter 8"> </div>
+
+      <div id="counter9"> counter9</div>
+
+      <div id="counter10"> counter10</div>
+
+      <div id="counter11"> counter11</div>
+
+      <div id="counter12"> counter12</div>
+
+      <div id="counter13"> counter13</div>
+
+      <div id="counter14"> counter14</div>
+</article>
+
+    <article id="title"> Soar </article>
+
+      <div class="floatingS"> <img src="images/birds1.png" alt="plane"/></div>
+      <div class="floatingO"> <img src="images/birds2.png" alt="plane"/></div>
+      <div class="floatingA"> <img src="images/birds3.png" alt="plane"/></div>
+      <div class="floatingR"> <img src="images/birds5.png" alt="plane"/></div>
+      <div class="floating6"> <img src="images/birds6.png" alt="plane"/></div>
+      <div class="floating7"> <img src="images/birds6.png" alt="plane"/></div>
+
+    </article>
+
+<script language="JavaScript">
+$(window).scroll(function(){
+     //console.log("topNumber");
+     //var topNumber = $(window).scrollTop();
+    var topNumber = Math.floor($(window).scrollTop());
+
+      //$("#counter").text("px:" +topNumber);
+      //style of the box
+    $("#counter").css({
+       "color":"white",
+       "background-color":"blue",
+      //how far the counter div is moving-controls speed of box
+      "top": 500 + topNumber * 1 +"px"
+      });
+
+      //console.log(topNumber);
+
+      if(topNumber>2200){
+       $("#counter").css({"top":"500px"});
+
+        }   else {
+        $("#counter").css({
+       "background-color":"green"});
+        }
+
+      //$("#counter2").text("px:" +topNumber);
+      //counter2//
+      $("#counter2").css({
+         "color":"white",
+         "background-color":"blue",
+        //how far the counter div is moving
+          "top":90 + topNumber * 0.5 +"px"
+        });
+
+        //console.log(topNumber);
+
+        if(topNumber>2200){
+         $("#counter2").css({"top":"90px"});
+
+        }   else {
+          $("#counter2").css({
+         "background-color":"green"});
+        }
+
+
+//COUNTER3
+
+  //counter3//
+  $("#counter3").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":450 +topNumber * 0.8 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter3").css({"top":"5px"});
+
+}   else {
+  $("#counter3").css({
+ "background-color":"green"});
+}
+
+
+
+
+
+//COUNTER4
+
+  $("#counter4").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":300 +topNumber * 0.8 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter4").css({"top":"5px"});
+
+}   else {
+  $("#counter4").css({
+ "background-color":"green"});
+}
+
+
+
+
+//COUNTER5
+  $("#counter5").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":400 +topNumber * 2 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter5").css({"top":"5px"});
+
+}   else {
+  $("#counter5").css({
+ "background-color":"green"});
+}
+
+
+
+
+
+//COUNTER6
+  $("#counter6").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":175 +topNumber * 0.5 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter6").css({"top":"5px"});
+
+}   else {
+  $("#counter6").css({
+ "background-color":"green"});
+}
+
+
+
+
+
+//COUNTER7
+
+
+  $("#counter7").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":225 +topNumber * 1.1 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter7").css({"top":"5px"});
+
+}   else {
+  $("#counter7").css({
+ "background-color":"green"});
+}
+
+
+
+
+//COUNTER8
+  //$("#counter").text("px:" +topNumber);
+  //style of the box
+  $("#counter8").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving-controls speed of box
+    "top":30 +topNumber * .8 +"px"
+
+                   });
+
+  //console.log(topNumber);
+
+if(topNumber>2200){
+ $("#counter8").css({"top":"5px"});
+
+}   else {
+  $("#counter8").css({
+ "background-color":"green"});
+}
+
+
+
+//COUNTER9
+
+//$("#counter2").text("px:" +topNumber);
+
+  $("#counter9").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":250+topNumber * .9 +"px"
+
+                   });
+
+  //console.log(topNumber);
+
+if(topNumber>2200){
+ $("#counter9").css({"top":"75px"});
+
+}   else {
+  $("#counter9").css({
+ "background-color":"green"});
+}
+
+
+
+
+//COUNTER10
+
+
+
+  $("#counter10").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":120 +topNumber * 1.1 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter10").css({"top":"5px"});
+
+}   else {
+  $("#counter10").css({
+ "background-color":"green"});
+}
+
+
+
+
+
+//COUNTER11
+
+
+  $("#counter11").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":40 +topNumber * 1.3 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter11").css({"top":"5px"});
+
+}   else {
+  $("#counter11").css({
+ "background-color":"green"});
+}
+
+
+
+
+//COUNTER12
+
+
+
+  $("#counter12").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":30 +topNumber * 1 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter12").css({"top":"5px"});
+
+}   else {
+  $("#counter12").css({
+ "background-color":"green"});
+}
+
+
+
+
+
+//COUNTER13
+
+
+  $("#counter13").css({
+     "color":"white",
+     "background-color":"blue",
+    //how far the counter div is moving
+     "top":220 + topNumber * 0.9 +"px"
+    });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+if(topNumber>2200){
+ $("#counter13").css({"top":"5px"});
+
+}   else {
+  $("#counter13").css({
+ "background-color":"green"});
+}
+
+
+   });
+
+
+//COUNTER14
+
+$(window).scroll(function(){
+
+
+
+     //console.log("topNumber");
+
+     //var topNumber = $(window).scrollTop();
+      var topNumber = Math.floor($(window).scrollTop());
+
+      $("#counter14").text("px:" +topNumber );
+
+  $("#counter14").css({
+     "color":"white",
+    "background-color":"blue",
+    //how far the counter div is moving
+    "top":30 +topNumber * 0.04 +"px"
+
+                   });
+
+  //console.log(topNumber);
+ //controls changes of px after you scroll to certain point
+
+
+
+
+
+
+
+   if(topNumber>1500){
+    $("#img").hide({"":"px"});
+
+   }   else {
+     $("#img").show({
+    });
+   }
+
+ });
+
+
+
+
+
+
+ </script>
+
+
+
+
+ <script>
+ $(document).ready(function(){
+     $("#hide").click(function(){
+         $("img").hide();
+     });
+     $("#show").click(function(){
+         $("img").show();
+     });
+ });
+ </script>
+
+
+
+
+
+
+
+</article>
+
+<section>
+  <div id="cirrus">
+    <img src="images/cirrusone.png" alt="plane"/>
+</div>
+</section>
+
+
+<section>
+
+<div id="planewindow">
+
+<div class="clouds">
+<img src="images/plane3.png" alt="plane"/>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+
+</div>
+
+<div class="clouds2">
+
+</div>
+
+
+
+
+
+</div>
+
+</section>
+
+<div class="floatingone"> <img src="images/cumulous2.png" alt="plane"/></div>
+<div class="floatingtwo"> <img src="images/cumulous2.png" alt="plane"/></div>
+<div class="floatingthree"> <img src="images/cloud3.png" alt="plane"/></div>
+<div class="floatingfour"> <img src="images/plane3.png" alt="plane"/></div>
+<div class="floatingfive"> <img src="images/cloud3.2.png" alt="plane"/></div>
+<div class="floatingsix"> <img src="images/cumulous2.png" alt="plane"/></div>
+<div class="floatingseven"> <img src="images/cloud3.2.png" alt="plane"/></div>
+<div class="cloudscumulous"> <img src="images/cloud3.png" alt="cloud3"/> </div>
+
+
+
+
+
+  </body>
+
+  </html>
